@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/gdsc_logo"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Enter Your Email"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="25dp"/>
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/et1"
+        android:inputType="textEmailAddress"/>
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Enter Your Password"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="25dp"/>
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:password="true"
+        android:id="@+id/et2"
+        android:layout_gravity="center"
+        android:inputType="text"/>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:layout_gravity="center"
+        android:id="@+id/bt3"/>
+
+</LinearLayout>
